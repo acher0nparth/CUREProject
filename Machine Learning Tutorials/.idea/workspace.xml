@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5a828fee-30ea-48df-a4c8-a15e2a3e454b" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1YodDAGG0RkVnhptsrXGlDd3dov" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/venv" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Tutorials" type="PythonConfigurationType" factoryName="Python">
+      <module name="Machine Learning Tutorials" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/KMeans Digits Data.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5a828fee-30ea-48df-a4c8-a15e2a3e454b" name="Default Changelist" comment="" />
+      <created>1583612758724</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1583612758724</updated>
+      <workItem from="1583612766745" duration="7176000" />
+      <workItem from="1583622127837" duration="4450000" />
+      <workItem from="1583764857645" duration="133000" />
+      <workItem from="1584060331186" duration="8881000" />
+      <workItem from="1584110492138" duration="1715000" />
+      <workItem from="1584112454510" duration="6144000" />
+      <workItem from="1584488779416" duration="16000" />
+      <workItem from="1585322726131" duration="1817000" />
+      <workItem from="1586536109472" duration="225000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.csv" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="335" y="23" key="#Regression_-_Student_Data" timestamp="1583621364795">
+      <screen x="0" y="23" width="1280" height="708" />
+    </state>
+    <state x="335" y="23" key="#Regression_-_Student_Data/0.23.1280.708@0.23.1280.708" timestamp="1583621364795" />
+    <state x="335" y="23" key="#Regression_Working_File" timestamp="1583621374973">
+      <screen x="0" y="23" width="1280" height="708" />
+    </state>
+    <state x="335" y="26" key="#Regression_Working_File/0.0.1280.800@0.0.1280.800" timestamp="1583614724987" />
+    <state x="335" y="23" key="#Regression_Working_File/0.23.1280.708@0.23.1280.708" timestamp="1583621374973" />
+    <state x="-666" y="-1275" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585326505477">
+      <screen x="-999" y="-1417" width="3440" height="1417" />
+    </state>
+    <state x="124" y="80" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.800@0.0.1280.800" timestamp="1584128929787" />
+    <state x="104" y="39" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1280.708@0.23.1280.708" timestamp="1583764987665" />
+    <state x="-666" y="-1275" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1280.777/-999.-1417.3440.1417@-999.-1417.3440.1417" timestamp="1585326505477" />
+    <state width="1238" height="505" key="GridCell.Tab.0.bottom" timestamp="1585326529167">
+      <screen x="-999" y="-1417" width="3440" height="1417" />
+    </state>
+    <state width="1238" height="266" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1584225110196" />
+    <state width="1238" height="240" key="GridCell.Tab.0.bottom/0.23.1280.708@0.23.1280.708" timestamp="1583764990615" />
+    <state width="1238" height="505" key="GridCell.Tab.0.bottom/0.23.1280.777/-999.-1417.3440.1417@-999.-1417.3440.1417" timestamp="1585326529167" />
+    <state width="1238" height="505" key="GridCell.Tab.0.center" timestamp="1585326529166">
+      <screen x="-999" y="-1417" width="3440" height="1417" />
+    </state>
+    <state width="1238" height="266" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1584225110196" />
+    <state width="1238" height="240" key="GridCell.Tab.0.center/0.23.1280.708@0.23.1280.708" timestamp="1583764990614" />
+    <state width="1238" height="505" key="GridCell.Tab.0.center/0.23.1280.777/-999.-1417.3440.1417@-999.-1417.3440.1417" timestamp="1585326529166" />
+    <state width="1238" height="505" key="GridCell.Tab.0.left" timestamp="1585326529166">
+      <screen x="-999" y="-1417" width="3440" height="1417" />
+    </state>
+    <state width="1238" height="266" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1584225110195" />
+    <state width="1238" height="240" key="GridCell.Tab.0.left/0.23.1280.708@0.23.1280.708" timestamp="1583764990613" />
+    <state width="1238" height="505" key="GridCell.Tab.0.left/0.23.1280.777/-999.-1417.3440.1417@-999.-1417.3440.1417" timestamp="1585326529166" />
+    <state width="1238" height="505" key="GridCell.Tab.0.right" timestamp="1585326529166">
+      <screen x="-999" y="-1417" width="3440" height="1417" />
+    </state>
+    <state width="1238" height="266" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1584225110196" />
+    <state width="1238" height="240" key="GridCell.Tab.0.right/0.23.1280.708@0.23.1280.708" timestamp="1583764990614" />
+    <state width="1238" height="505" key="GridCell.Tab.0.right/0.23.1280.777/-999.-1417.3440.1417@-999.-1417.3440.1417" timestamp="1585326529166" />
+    <state x="-202" y="-1045" key="com.intellij.ide.util.TipDialog" timestamp="1586536119355">
+      <screen x="-1054" y="-1417" width="3440" height="1417" />
+    </state>
+    <state x="317" y="210" key="com.intellij.ide.util.TipDialog/0.0.1280.800/-1007.-1440.3440.1440@0.0.1280.800" timestamp="1584488780076" />
+    <state x="317" y="210" key="com.intellij.ide.util.TipDialog/0.0.1280.800/-999.-1440.3440.1440@0.0.1280.800" timestamp="1585322726111" />
+    <state x="317" y="209" key="com.intellij.ide.util.TipDialog/0.23.1280.708@0.23.1280.708" timestamp="1584060340191" />
+    <state x="-202" y="-1045" key="com.intellij.ide.util.TipDialog/0.23.1280.729/-1054.-1417.3440.1417@-1054.-1417.3440.1417" timestamp="1586536119355" />
+    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup" timestamp="1584062080604">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup/0.0.1280.800@0.0.1280.800" timestamp="1584062080604" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Machine_Learning_Tutorials$Tutorials.coverage" NAME="Tutorials Coverage Results" MODIFIED="1585326485968" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Machine_Learning_Tutorials$NN_Tutorial.coverage" NAME="Tutorials Coverage Results" MODIFIED="1584111955741" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Machine_Learning_Tutorials$Regression_Working_File.coverage" NAME="Regression Working File Coverage Results" MODIFIED="1583622114222" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Machine_Learning_Tutorials$KNN_Tutorial.coverage" NAME="KNN Tutorial Coverage Results" MODIFIED="1583764905229" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Machine_Learning_Tutorials$SVM_Tutorial.coverage" NAME="NN Tutorial Coverage Results" MODIFIED="1584074811895" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>
