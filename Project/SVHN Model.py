@@ -7,7 +7,9 @@
 import matplotlib.pyplot as plt
 import numpy as np
 import tensorflow as tf
+from tensorflow import keras
 import tensorflow_datasets as tfds
+import matplotlib.pyplot as plt
 
 tfds.disable_progress_bar()
 
@@ -36,15 +38,24 @@ ds_test = ds_test.batch(128)
 ds_test = ds_test.cache()
 ds_test = ds_test.prefetch(tf.data.experimental.AUTOTUNE)
 
+image_batch, label_batch = next(iter(ds_train))
+def show_batch(image_batch, label_batch):
+  plt.figure(figsize=(32,32))
+  for n in range(5):
+      plt.imshow(image_batch[n])
+      plt.show()
+      plt.title(label_batch[n+1])
+show_batch(image_batch.numpy(), label_batch.numpy())
+
 model = tf.keras.models.Sequential([
-  tf.keras.layers.Flatten(input_shape=(28, 28, 1)),
+  tf.keras.layers.Flatten(input_shape=(32, 32, 3)),
   tf.keras.layers.Dense(128,activation='relu'),
   tf.keras.layers.Dense(10, activation='softmax')
 ])
 model.compile(
     loss='sparse_categorical_crossentropy',
     optimizer=tf.keras.optimizers.Adam(0.001),
-    metrics=['accuracy'],
+    metrics=['accuracy']
 )
 
 model.fit(
@@ -54,4 +65,28 @@ model.fit(
 )
 
 
+'''model = keras.Sequential([
+    keras.layers.Flatten(input_shape=(28,28)),
+    keras.layers.Dense(128, activation="relu"),
+    keras.layers.Dense(10, activation="softmax")
+    ])
 
+model.compile(optimizer="adam", loss="sparse_categorical_crossentropy", metrics=["accuracy"])
+
+model.fit(train_images, train_labels, epochs=10)
+
+# model.save("fashionModel.h5")
+# model = keras.models.load_model("fashionModel.h5")
+
+test_loss, test_acc = model.evaluate(ds_test, test_labels)
+
+print("Tested Acc: ", test_acc)
+
+prediction = model.predict(test_images)
+
+for i in range(25):
+    plt.grid(False)
+    plt.imshow(test_images[i], cmap=plt.cm.binary)
+    plt.xlabel("Actual: " + class_names[test_labels[i]])
+    plt.title("Prediction: " + class_names[np.argmax(prediction[i])])
+    plt.show()'''
