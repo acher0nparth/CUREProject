@@ -29,64 +29,60 @@ ds_train = ds_train.map(
     normalize_img, num_parallel_calls=tf.data.experimental.AUTOTUNE)
 ds_train = ds_train.cache()
 ds_train = ds_train.shuffle(ds_info.splits['train'].num_examples)
-ds_train = ds_train.batch(128)
+ds_train = ds_train.batch(60000)
 ds_train = ds_train.prefetch(tf.data.experimental.AUTOTUNE)
 
 ds_test = ds_test.map(
     normalize_img, num_parallel_calls=tf.data.experimental.AUTOTUNE)
-ds_test = ds_test.batch(128)
+ds_test = ds_test.batch(10000)
 ds_test = ds_test.cache()
 ds_test = ds_test.prefetch(tf.data.experimental.AUTOTUNE)
 
-image_batch, label_batch = next(iter(ds_train))
-def show_batch(image_batch, label_batch):
+train_images, train_labels = next(iter(ds_train))
+test_images, test_labels = next(iter(ds_test))
+
+def show_batch(train_image, train_label):
   plt.figure(figsize=(32,32))
   for n in range(5):
-      plt.imshow(image_batch[n])
+      plt.imshow(train_images[n])
       plt.show()
-      plt.title(label_batch[n+1])
-show_batch(image_batch.numpy(), label_batch.numpy())
+      plt.title(train_labels[n+1])
+# show_batch(train_images.numpy(), train_labels.numpy())
 
 model = tf.keras.models.Sequential([
   tf.keras.layers.Flatten(input_shape=(32, 32, 3)),
   tf.keras.layers.Dense(128,activation='relu'),
   tf.keras.layers.Dense(10, activation='softmax')
 ])
-model.compile(
-    loss='sparse_categorical_crossentropy',
-    optimizer=tf.keras.optimizers.Adam(0.001),
-    metrics=['accuracy']
-)
-
-model.fit(
-    ds_train,
-    epochs=6,
-    validation_data=ds_test,
-)
-
-
-'''model = keras.Sequential([
-    keras.layers.Flatten(input_shape=(28,28)),
-    keras.layers.Dense(128, activation="relu"),
-    keras.layers.Dense(10, activation="softmax")
-    ])
-
+# model.compile(
+#     loss='sparse_categorical_crossentropy',
+#     optimizer=tf.keras.optimizers.Adam(0.001),
+#     metrics=['accuracy']
+# )
 model.compile(optimizer="adam", loss="sparse_categorical_crossentropy", metrics=["accuracy"])
-
+# model.fit(
+#     ds_train,
+#     epochs=6,
+#     validation_data=ds_test,
+# )
 model.fit(train_images, train_labels, epochs=10)
 
-# model.save("fashionModel.h5")
-# model = keras.models.load_model("fashionModel.h5")
+'''
+model.save("SVHNModel.h5")
+model = keras.models.load_model("SVHNModel.h5")
 
-test_loss, test_acc = model.evaluate(ds_test, test_labels)
+test_loss, test_acc = model.evaluate(test_images, test_labels)
 
 print("Tested Acc: ", test_acc)
 
 prediction = model.predict(test_images)
 
-for i in range(25):
+classes = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"]
+
+for i in range(5):
     plt.grid(False)
     plt.imshow(test_images[i], cmap=plt.cm.binary)
-    plt.xlabel("Actual: " + class_names[test_labels[i]])
-    plt.title("Prediction: " + class_names[np.argmax(prediction[i])])
-    plt.show()'''
+    plt.xlabel("Actual: " + classes[test_labels[i]])
+    plt.title("Prediction: " + classes[np.argmax(prediction[i])])
+    plt.show()
+'''
